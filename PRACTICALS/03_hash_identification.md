@@ -8,9 +8,9 @@ Identify hash types based on structure and length.
 - Offline attack preparation
 
 ## Hash Length Guide
-MD5      → 32 hexadecimal characters
-SHA-1    → 40 hexadecimal characters
-SHA-256  → 64 hexadecimal characters
+- MD5      → 32 hexadecimal characters
+- SHA-1    → 40 hexadecimal characters
+- SHA-256  → 64 hexadecimal characters
 
 ## Why This Matters
 Hashcat requires the correct hash mode.
