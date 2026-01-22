@@ -4,24 +4,18 @@
 Identify hash types based on structure and length.
 
 ## Theory Mapping
-Related to:
 - Hash algorithms
 - Offline attack preparation
 
-## Step 1: Observe Hash Length
+## Hash Length Guide
+MD5      → 32 hexadecimal characters
+SHA-1    → 40 hexadecimal characters
+SHA-256  → 64 hexadecimal characters
 
-MD5:
-32 hexadecimal characters
-
-SHA-1:
-40 hexadecimal characters
-
-SHA-256:
-64 hexadecimal characters
-
-## Step 2: Why Identification Matters
-Hashcat requires correct hash mode.
-Wrong identification leads to failure.
+## Why This Matters
+Hashcat requires the correct hash mode.
+Incorrect identification leads to failed attacks.
 
 ## Learning Outcome
-Hash identification is a prerequisite for password analysis.
+Hash identification is a mandatory first step in password analysis.
+
