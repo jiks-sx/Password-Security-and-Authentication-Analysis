@@ -1,21 +1,25 @@
-# Lab 07 – Effect of Salting
+# Lab 07 – Salting Effect Demonstration
 
 ## Objective
-Understand how salting changes hash behavior.
+Understand how salting protects against mass password cracking.
 
 ## Theory Mapping
-Related to:
 - Salting
 - Rainbow table prevention
 
 ## Step 1: Hash Without Salt
+- Command:
+  
 echo -n "password123" | md5sum
 
-## Step 2: Simulate Salt
+## Step 2: Simulate Salting
+- Command:
+  
 echo -n "password123XYZ" | md5sum
 
 ## Observation
 Same password produces different hashes.
 
 ## Learning Outcome
-Salting breaks hash reuse and precomputed attacks.
+Salting ensures uniqueness and prevents reuse of cracked hashes.
+
