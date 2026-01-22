@@ -1,38 +1,39 @@
-#  Password Security & Authentication Analysis
+# Password Security & Authentication Analysis
 
-##  About This Project
-This repository explains how passwords are created, stored, attacked,
-and protected using modern security techniques.
+## Overview
+This repository contains a deep theoretical and practical analysis of
+password security and authentication mechanisms.
+The project was completed in a **VMware-based Kali Linux lab** using
+ethical and self-created data only.
 
-The project includes:
-- Deep theoretical explanations
-- Easy-to-understand concepts
-- Practical demonstrations using self-created data
-- Security recommendations used in real organizations
+## Objectives
+- Understand authentication and password fundamentals
+- Study password hashing and storage mechanisms
+- Analyze common password attack techniques
+- Perform controlled offline password analysis
+- Learn modern defense strategies such as MFA
 
-##  Learning Objectives
-- Understand authentication fundamentals
-- Learn how password hashing works
-- Analyze password attack techniques
-- Perform controlled password cracking
-- Study Multi-Factor Authentication (MFA)
-- Recommend strong authentication practices
-
-##  Tools Used
-- Hashcat
-- John the Ripper
+## Tools & Environment
+- VMware
 - Kali Linux
+- Hashcat
 - RockYou wordlist
 
-##  Ethical Disclaimer
-This project is strictly for **educational purposes**.
-All passwords and hashes are **self-generated**.
-No real user data or unauthorized systems were involved.
+## Key Learnings
+- Weak passwords are easily cracked
+- Fast hash algorithms are insecure for passwords
+- Salting and slow hashing improve security
+- MFA significantly reduces account compromise risk
 
-##  Folder Explanation
-- `theory/` → Concept-by-concept explanations
-- `practical/` → Hands-on demonstrations
-- `report/` → Final internship-ready report
+## Ethical Disclaimer
+This project is for **educational purposes only**.
+All experiments were performed on self-generated passwords
+in a local lab environment.
+
+## Structure
+- `theory/` – Deep concept explanations
+- `practical/` – Hands-on labs (VMware + Kali)
+- `report/` – Final internship report
 
 ##  Outcome
 Strong understanding of password security attacks and defenses.
