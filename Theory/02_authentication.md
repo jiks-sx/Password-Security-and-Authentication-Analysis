@@ -1,4 +1,4 @@
-# Authentication – Deep Explanation
+# Authentication 
 
 ## What Is Authentication?
 
@@ -25,7 +25,7 @@ Example:
 - Login → Authentication
 - Access admin panel → Authorization
 
-## Authentication Factors (Deep View)
+## Authentication Factors 
 
 There are only three fundamental authentication factors:
 
