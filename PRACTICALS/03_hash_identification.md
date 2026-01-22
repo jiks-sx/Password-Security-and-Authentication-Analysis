@@ -7,6 +7,11 @@ Identify hash types based on structure and length.
 - Hash algorithms
 - Offline attack preparation
 
+## Identifier
+-Command:
+
+hash-identifier
+
 ## Hash Length Guide
 - MD5      → 32 hexadecimal characters
 - SHA-1    → 40 hexadecimal characters
