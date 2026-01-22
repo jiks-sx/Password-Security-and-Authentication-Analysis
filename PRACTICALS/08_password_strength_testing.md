@@ -4,7 +4,7 @@
 Analyze how password strength affects cracking success.
 
 ## Weak Password
-password123
+jiksxs123
 
 ## Strong Password
 X9@kL#2p$Z!mQ8
