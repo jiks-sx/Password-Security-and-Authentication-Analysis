@@ -1,28 +1,29 @@
-# Lab 02 – Password Hashing Basics
+# Lab 02 – Password Hashing 
 
 ## Objective
-Understand how the same password behaves with different hash algorithms.
+Understand how hashing converts passwords into non-reversible values.
 
 ## Theory Mapping
-Related to:
 - Hashing fundamentals
 - One-way functions
-- Deterministic property
+- Deterministic behavior
 
-## Step 1: Choose a Test Password
+## Step 1: Select Test Password
 Password used:
 Password@123
 
 ## Step 2: Generate MD5 Hash
+Command:
 echo -n "Password@123" | md5sum
 
 ## Step 3: Generate SHA-256 Hash
+Command:
 echo -n "Password@123" | sha256sum
 
 ## Observation
 - Same password
+- Different algorithms
 - Different hash outputs
-- Different output lengths
 
 ## Learning Outcome
-Hashing is deterministic but algorithm-dependent.
+Hashing depends on the algorithm used, not just the input.
