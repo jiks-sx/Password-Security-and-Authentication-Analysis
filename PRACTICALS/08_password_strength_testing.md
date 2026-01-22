@@ -1,7 +1,7 @@
-# Lab 08 – Password Strength Testing
+# Lab 08 – Password Strength Analysis
 
 ## Objective
-Analyze how password strength affects security.
+Analyze how password strength affects cracking success.
 
 ## Weak Password
 password123
@@ -10,8 +10,8 @@ password123
 X9@kL#2p$Z!mQ8
 
 ## Observation
-- Weak password cracks instantly
-- Strong password is impractical to crack
+- Weak passwords are cracked instantly
+- Strong passwords resist dictionary attacks
 
 ## Learning Outcome
-Length and randomness provide real security.
+Password length and randomness provide real security.
