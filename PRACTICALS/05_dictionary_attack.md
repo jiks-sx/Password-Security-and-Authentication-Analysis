@@ -1,26 +1,28 @@
 # Lab 05 – Dictionary Attack 
 
 ## Objective
-Demonstrate how human behavior leads to password compromise.
+Demonstrate how human password choices lead to compromise.
 
 ## Theory Mapping
-Related to:
 - Dictionary attacks
-- Human password choices
+- Human behavior in password selection
 
-## Step 1: Use RockYou Wordlist
-Wordlist contains leaked real-world passwords.
+## Step 1: Run Dictionary Attack
+Command:
 
-## Step 2: Run Hashcat Dictionary Attack
 hashcat -m 0 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
 
-## Result
-password123 is cracked in seconds.
+## Step 2: Display Cracked Password
+Command:
+hashcat -m 0 hash.txt --show
+
+Expected Result:
+password123
 
 ## Why This Worked
 - Weak password
 - Common wordlist
-- Fast hash algorithm
+- Fast hashing algorithm
 
 ## Learning Outcome
-Most real-world breaches occur due to dictionary attacks.
+Dictionary attacks are the most effective real-world password attack.
