@@ -24,5 +24,4 @@ If one website is breached:
 
 This is called credential stuffing.
 
-Passwords fail not because of technology,
-but because of human behavior.
+## Passwords fail not because of technology,but because of human behavior.
